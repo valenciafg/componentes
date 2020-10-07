@@ -62,6 +62,26 @@ export class InicioPage implements OnInit {
       icon: 'grid-outline',
       name: 'Infinite',
       redirectTo: '/infinite'
+    },
+    {
+      icon: 'hammer-outline',
+      name: 'Input Forms',
+      redirectTo: '/input'
+    },
+    {
+      icon: 'list-outline',
+      name: 'LIst - Sliding',
+      redirectTo: '/list'
+    },
+    {
+      icon: 'reorder-three-outline',
+      name: 'LIst - Reorder',
+      redirectTo: '/list-reorder'
+    },
+    {
+      icon: 'refresh-circle-outline',
+      name: 'Loading',
+      redirectTo: '/loading'
     }
   ];
 
