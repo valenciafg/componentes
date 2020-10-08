@@ -4,19 +4,19 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InfinitePageRoutingModule } from './infinite-routing.module';
+import { ModalPageRoutingModule } from './modal-routing.module';
 
-import { InfinitePage } from './infinite.page';
-import { ComponentsModule } from '../../components/components.module';
+import { ModalPage } from './modal.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    InfinitePageRoutingModule,
+    ModalPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [InfinitePage]
+  declarations: [ModalPage]
 })
-export class InfinitePageModule {}
+export class ModalPageModule {}

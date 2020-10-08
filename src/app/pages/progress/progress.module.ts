@@ -4,19 +4,19 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InfinitePageRoutingModule } from './infinite-routing.module';
+import { ProgressPageRoutingModule } from './progress-routing.module';
 
-import { InfinitePage } from './infinite.page';
-import { ComponentsModule } from '../../components/components.module';
+import { ProgressPage } from './progress.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    InfinitePageRoutingModule,
+    ProgressPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [InfinitePage]
+  declarations: [ProgressPage]
 })
-export class InfinitePageModule {}
+export class ProgressPageModule {}
